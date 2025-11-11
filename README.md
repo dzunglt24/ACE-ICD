@@ -1,6 +1,7 @@
 # ACE-ICD: Acronym Expansion as Data Augmentation for ICD coding
 
-This repository contains the code for **ACE-ICD: Acronym Expansion as Data Augmentation for ICD coding**
+This repository contains the code for **ACE-ICD: Acronym Expansion as Data Augmentation for ICD coding \[IJCNLP-AACL 2025 Findings\]**
+
 (The code for training our ICD coding models will be made available soon.)
 
 ![pipeline](figure.png)
@@ -46,5 +47,16 @@ python section_expand.py --model_name meta-llama/Llama-3.2-1B-Instruct
 
 python preprocess.py --model_name meta-llama/Llama-3.2-1B-Instruct
 ```
-
+## Citation
+```
+@misc{le2025aceicdacronymexpansiondata,
+      title={ACE-ICD: Acronym Expansion As Data Augmentation For Automated ICD Coding}, 
+      author={Tuan-Dung Le and Shohreh Haddadan and Thanh Q. Thieu},
+      year={2025},
+      eprint={2511.07311},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2511.07311}, 
+}
+```
 
